@@ -1,0 +1,41 @@
+{
+  "title": "Helm Chart Testing",
+  "description": "Advanced testing techniques for Helm charts.",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uisettings": "go",
+    "showvisualise": true
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  },
+  "files": [
+    "hello.go",
+    "Dockerfile",
+    "pod.yaml",
+    "deployment.yaml",
+    "service.yaml"
+  ]
+}
