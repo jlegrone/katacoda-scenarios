@@ -1,5 +1,9 @@
 In this scenario you will write a very simple Go application, build it into a container, and run it under Kubernetes.
 
+First, we'll need to install helm:
+
+`curl https://github.com/helm/helm/blob/d953c6875cfd4b351a1e8205081ea8aabad7e7d4/scripts/get | sh`{{execute}}
+
 <pre class="file" data-filename="hello.go" data-target="replace">
 package main
 
